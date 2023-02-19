@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.time.Duration;
 
 public class LoginStepDef {
@@ -62,7 +61,6 @@ public class LoginStepDef {
         Assert.assertTrue(errorMsg.isDisplayed());
         quitDriver();
     }
-
 
     private void quitDriver(){
         if (driver != null){
